@@ -1,4 +1,23 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
-
+Set RandomNum= Random number between 1 and 10
+print "Welcome to my guessing game"
+Print "In this game, you only get 3 chances. Good luck."
+print "Guess a number 1- 10."
+Input guess
+count = 1
+For count = 1 to 3
+ While guess != RandomNum
+    if guess > RandomNum
+        output "Incorrect guess. Try lower"
+    else 
+        print "Incorrect guess. Try higher"
+Input guess
+    count +1
+    if count == 3
+        break   
+        output "Sorry, the correct answer was Randomnum"
+End While
+If guess === Randomnum then
+        output "Wohoo! You guessed the correct number!"
