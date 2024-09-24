@@ -1,4 +1,14 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+full_package = 50
+scan_items= +2 until 50
+Count_total 
+start_num=0
 
+While true:
+    If count_total <= 50
+        then count_total +2
+     Else if count total == 50
+        Print "Package filled"
+    Then restart program
