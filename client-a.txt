@@ -2,10 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 Set RandomNum= Random number between 1 and 10
-Print "Welcome to my guessing game"
-Print "In this game, you only get 3 chances. Good luck."
-Print "Guess a number 1- 10."
-Input guess
+Welcome phrases to player
+    Print "Welcome to my guessing game"
+    Print "In this game, you only get 3 chances. Good luck."
+    Print "Guess a number 1- 10."
+Prompt user to input guess number
+    If guess is > 10, ask to guess again
 Count = 1
 For count = 1 to 3
  While guess != RandomNum
