@@ -1,4 +1,31 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Variable: player_icon
+Develop Map of warehouse (aisles-similar to a maze with end point as exit)
+    Screen area size
+    Grid size
+    Sprite size
+Pick start point for player_icon (coordinates)
+    Center coordinate: 0,0
+Pick item_location (coordinates)
+    Top right
+    Print "Find your item in the northeast corner of the store"
+    Print "You are here X"
+route_to_item: North, South, East, West
+Prompt users to move one space in cardinal direction
+If user moves outside of boundary
+    Print "You have hit a wall, try a different direction"
+Loop
+    If player moves toward object  
+        Print: "You are getting warmer"
+    Else player moves away from object
+        Print: "You are getting colder"
+End loop when player_icon == item_location
+   
+
+
+
+
+
 
